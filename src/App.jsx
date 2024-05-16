@@ -11,6 +11,7 @@ import {
   Works,
   StarsCanvas,
 } from './components'
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -19,7 +20,6 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-
         <About />
         <Experience />
         <Tech />
