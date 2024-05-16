@@ -6,12 +6,10 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
   meta,
   starbucks,
@@ -59,28 +57,12 @@ const services = [
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
-  },
-  {
     name: 'JavaScript',
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
     name: 'React JS',
     icon: reactjs,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
   },
   {
     name: 'Tailwind CSS',
@@ -90,6 +72,20 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
+  {
+    name: 'HTML 5',
+    icon: html,
+  },
+
+  {
+    name: 'CSS 3',
+    icon: css,
+  },
+  {
+    name: 'TypeScript',
+    icon: typescript,
+  },
+
   {
     name: 'MongoDB',
     icon: mongodb,
@@ -102,10 +98,7 @@ const technologies = [
     name: 'git',
     icon: git,
   },
-  {
-    name: 'figma',
-    icon: figma,
-  },
+
   {
     name: 'docker',
     icon: docker,
