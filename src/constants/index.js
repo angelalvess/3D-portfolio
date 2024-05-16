@@ -1,7 +1,5 @@
 import {
-  mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -46,8 +44,8 @@ const services = [
     icon: web,
   },
   {
-    title: 'React Native Developer',
-    icon: mobile,
+    title: 'Full stack developer',
+    icon: backend,
   },
   {
     title: 'Backend Developer',
@@ -55,7 +53,7 @@ const services = [
   },
   {
     title: 'Content Creator',
-    icon: creator,
+    icon: backend,
   },
 ]
 
@@ -129,13 +127,13 @@ const experiences = [
     ],
   },
   {
-    title: 'React Native Developer',
+    title: 'React Developer',
     company_name: 'Tesla',
     icon: tesla,
     iconBg: '#E6DEDD',
     date: 'Jan 2021 - Feb 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
+      'Developing and maintaining web applications using Next.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
       'Implementing responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and providing constructive feedback to other developers.',
