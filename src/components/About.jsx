@@ -42,10 +42,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 max-w-3xl text-[17px] leading-[30px] text-secondary"
       >
-        I am a full-stack developer with a passion for building web
-        applications. I have experience working with various technologies and
-        frameworks. I am always looking to learn new things and improve my
-        skills.
+        I'm a full-stack developer passionate about building web applications. I have studied different technologies and frameworks. I'm always looking to learn new things and improve my skills.
       </motion.p>
 
       <div className="mt-20 justify-center flex flex-wrap gap-10">
