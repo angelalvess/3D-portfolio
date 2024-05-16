@@ -16,9 +16,14 @@ import {
   tesla,
   shopify,
   carrent,
+  netflix,
   jobit,
   tripguide,
   threejs,
+  shoppingcart,
+  fswfoods,
+  alura,
+  udemy
 } from '../assets'
 
 export const navLinks = [
@@ -38,21 +43,18 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'Front-end Developer',
     icon: web,
   },
   {
-    title: 'Full stack developer',
+    title: 'Fullstack developer',
     icon: backend,
   },
   {
     title: 'Backend Developer',
     icon: backend,
   },
-  {
-    title: 'Content Creator',
-    icon: backend,
-  },
+  
 ]
 
 const technologies = [
@@ -107,11 +109,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
+    title: 'Programming logic',
+    company_name: 'Alura',
+    icon: alura,
     iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    date: 'Jan 2024',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -120,11 +122,11 @@ const experiences = [
     ],
   },
   {
-    title: 'React Developer',
-    company_name: 'Tesla',
-    icon: tesla,
+    title: 'JavaScript and TypeScript ',
+    company_name: 'Udemy',
+    icon: udemy,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'Dez 2023',
     points: [
       'Developing and maintaining web applications using Next.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -133,11 +135,11 @@ const experiences = [
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
+    title: 'Fundamentals HTML, CSS and JavaScript',
+    company_name: 'Udemy',
+    icon: udemy,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: ' Dez 2023',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -146,11 +148,11 @@ const experiences = [
     ],
   },
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
+    title: 'Python 3',
+    company_name: 'Udemy',
+    icon: udemy,
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    date: 'Jan 2023 ',
     points: [
       'Developing and maintaining web applications using React.js and other related technologies.',
       'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
@@ -189,16 +191,45 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'FSW Foods',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Ifood clone developed with next.js, react, typescript, tailwindcss, prisma, neon tech.',
+
+    
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'react',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'prisma',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'typescript',
+       color: 'green-text-gradient',
+      },
+    ],
+    image: fswfoods,
+    source_code_link: 'https://github.com/angelalvess/fsw-foods',
+  },
+  {
+    name: 'Netflix Clone',
+    description:
+      'Netflix clone developed with React.js, Tailwind, Vite, FirebaseDB ',
+
+    
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'firebaseDB',
         color: 'green-text-gradient',
       },
       {
@@ -206,50 +237,29 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: netflix,
+    source_code_link: 'https://github.com/angelalvess/netflix-react',
   },
   {
-    name: 'Job IT',
+    name: 'Shopping Cart',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+    'This is a shopping cart project developed with React JS and the Mercado Livre API.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'tailwind',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'mercadolivre-api',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: shoppingcart,
+    source_code_link: 'https://github.com/angelalvess/shopping-cart',
   },
 ]
 
