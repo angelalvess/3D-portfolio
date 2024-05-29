@@ -28,6 +28,7 @@ import shopify from './company/shopify.png'
 import starbucks from './company/starbucks.png'
 import tesla from './company/tesla.png'
 
+import banking from './banking.png'
 import carrent from './carrent.png'
 import netflix from './netflix.png'
 import fswfoods from './fswfoods.png'
@@ -68,5 +69,6 @@ export {
   fswfoods,
   shoppingcart,
   alura,
-  udemy
+  udemy,
+  banking
 }

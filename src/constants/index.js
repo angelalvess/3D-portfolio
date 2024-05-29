@@ -23,7 +23,8 @@ import {
   shoppingcart,
   fswfoods,
   alura,
-  udemy
+  udemy,
+  banking
 } from '../assets'
 
 export const navLinks = [
@@ -218,9 +219,9 @@ const projects = [
     source_code_link: 'https://github.com/angelalvess/fsw-foods',
   },
   {
-    name: 'Netflix Clone',
+    name: 'Horizon Bank',
     description:
-      'Netflix clone developed with React.js, Tailwind, Vite, FirebaseDB ',
+      'Horizon is a financial SaaS platform that connects to multiple banks.',
 
     
     tags: [
@@ -237,8 +238,8 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: netflix,
-    source_code_link: 'https://github.com/angelalvess/netflix-react',
+    image: banking,
+    source_code_link: 'https://github.com/angelalvess/banking-app',
   },
   {
     name: 'Shopping Cart',
